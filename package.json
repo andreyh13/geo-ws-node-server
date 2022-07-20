@@ -1,0 +1,32 @@
+{
+  "name": "geo-ws-node-server",
+  "version": "1.0.0",
+  "description": "GeoWs node server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreyh13/geo-ws-node-server.git"
+  },
+  "keywords": [
+    "GeoWs",
+    "Google",
+    "maps",
+    "webservices"
+  ],
+  "author": "Andriy Khomenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreyh13/geo-ws-node-server/issues"
+  },
+  "homepage": "https://github.com/andreyh13/geo-ws-node-server#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "axios": "^0.27.2"
+  }
+}
